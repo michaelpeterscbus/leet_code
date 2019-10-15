@@ -1,14 +1,7 @@
-package problems;
+package problems.problem1_TwoSum;
 
-public class Problem_1 {
+public class Solution {
 
-	public static void main(String[] args) {
-		int [] nums = {2,5,5,11};
-		int [] result = twoSum(nums, 10);
-		System.out.println(result[0] + "," + result[1]);
-		
-
-	}
 	public static int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         int a = 0;
