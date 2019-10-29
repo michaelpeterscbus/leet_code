@@ -1,0 +1,13 @@
+package problems.ReverseString;
+
+public class Solution {
+	public char[] reverseString(char[] s) {
+		char temp = 0;
+	    for (int i = 0; i < s.length/2; i++) {
+	        	temp = s[i];	
+	        	s[i] = s[s.length - i - 1];
+	        	s[s.length - i - 1] = temp;
+	    }
+	    return s;
+	 }
+}
